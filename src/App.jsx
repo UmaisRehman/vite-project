@@ -9,6 +9,9 @@ function App() {
   }
   function MinCounter() {
     setNum(num - 1);
+    if(num <= 0){
+      setNum(num)
+    }
   }
 
   return (
